@@ -1,0 +1,71 @@
+.box10 {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  margin-bottom: 8px;
+}
+.box40 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-bottom: 8px;
+}
+.box50 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-bottom: 8px;
+}
+.box60 {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-bottom: 8px;
+}
+.box100 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.messageError {
+  margin: 4px;
+  color: var(--brown400);
+}
+
+.button {
+  height: 45px;
+  width: 160px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--yellow500);
+  font-weight: bold;
+  color: var(--white);
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.title {
+  display: flex;
+  width: 100%;
+  margin: 16px 0;
+  gap: 8px;
+  align-items: flex-end;
+}
+
+@media (max-width: 768px) {
+  .box10,
+  .box40,
+  .box50,
+  .box60,
+  .box100 {
+    width: 100%;
+  }
+  /* .button {
+    width: 50%;
+  } */
+}

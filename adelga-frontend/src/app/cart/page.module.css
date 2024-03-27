@@ -1,0 +1,41 @@
+.container {
+  /* width: 100%; */
+  /* height: calc(100vh - ); */
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  gap: 2rem;
+  /* border: 1px solid red; */
+}
+.boxAddress {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background: var(--gray200);
+  border-radius: 8px;
+  padding: 20px;
+  /* border: 1px solid red; */
+}
+.boxItems {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background: var(--gray200);
+  border-radius: 8px;
+  padding: 50px;
+  /* border: 1px solid red; */
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 2rem;
+    /* border: 1px solid red; */
+  }
+  .boxItems,
+  .boxAddress {
+    padding: 0;
+  }
+}

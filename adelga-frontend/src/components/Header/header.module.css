@@ -1,0 +1,23 @@
+.header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  padding: 1rem 5rem;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--brown800);
+}
+
+.header h1 {
+  color: var(--yellow900);
+}
+
+.boxCount {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 1rem 1rem;
+  }
+}

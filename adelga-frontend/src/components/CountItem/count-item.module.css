@@ -1,0 +1,11 @@
+.countItem {
+  width: 1.2rem;
+  height: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.6rem;
+  background: var(--yellow900);
+  color: var(--yellow100);
+  margin-left: -10px;
+}

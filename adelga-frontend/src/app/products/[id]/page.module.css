@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+.boxImage {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+.boxDetails {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+}
+.image {
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 0;
+    gap: 2rem;
+  }
+  .boxImage {
+    width: 100%;
+  }
+  .boxDetails {
+    width: 100%;
+  }
+}

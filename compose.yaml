@@ -1,0 +1,41 @@
+networks:
+  adelga-network:
+    driver: bridge
+
+services:
+  web:
+    build: ./adelga-frontend
+    ports:
+      - 3000:3000
+    volumes:
+      - ./adelga-frontend:/home/node/app
+    networks:
+      - adelga-network
+    container_name: adelga-web
+  
+  products-ms:
+    build: ./adelga-backend/products
+    ports:
+      - 3333:3333
+    volumes:
+      - ./adelga-backend/products:/home/node/app
+    networks:
+      - adelga-network
+    container_name: products-ms
+    depends_on:
+      - products-db
+  
+  products-db:
+    image: postgres:13-alpine
+    restart: always
+    volumes:
+      - .pgdata-products:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USERNAME=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=products
+    ports:
+      - "5432:5432"
+    networks:
+      - adelga-network  
+    container_name: products-db  

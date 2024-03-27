@@ -1,0 +1,123 @@
+{
+  "products": [
+    {
+      "id": "1000",
+      "title": "51 Ice Kiwi 269ml Lata",
+      "category": "drinks",
+      "price": 4.99,
+      "url": "http://172.21.0.2:4566/adelga-images/51-ice-kiwi-269ml.png"
+    },
+    {
+      "id": "1",
+      "title": "Skol Beats GT Gin e Tônica 269ml Lata",
+      "category": "drinks",
+      "price": 6.89,
+      "url": "http://172.21.0.2:4566/adelga-images/beats-gt-269ml.png"
+    },
+    {
+      "id": "2",
+      "title": "Skol Beats Sense 269ml Lata",
+      "category": "drinks",
+      "price": 6.89,
+      "url": "http://172.21.0.2:4566/adelga-images/beats-senses-269ml.png"
+    },
+    {
+      "id": "3",
+      "title": "Cerveja Becks Puro Malte 350ml Lata",
+      "category": "cerveja",
+      "price": 4.99,
+      "url": "http://172.21.0.2:4566/adelga-images/becks-lata-350ml.png"
+    },
+    {
+      "id": "4",
+      "title": "Cerveja Budweiser 330ml Long neck",
+      "category": "cerveja",
+      "price": 6.8,
+      "url": "http://172.21.0.2:4566/adelga-images/budweiser-330ml.png"
+    },
+    {
+      "id": "5",
+      "title": "Cerveja Hocus Pocus Mad Honey Doppelbock Garrafa 500ml",
+      "category": "cerveja",
+      "price": 31.99,
+      "url": "http://172.21.0.2:4566/adelga-images/cerveja-hocus-pocus-mad-honey-500ml.png"
+    },
+    {
+      "id": "6",
+      "title": "Cerveja Corona Extra 330ml",
+      "category": "cerveja",
+      "price": 6.49,
+      "url": "http://172.21.0.2:4566/adelga-images/corona-extra.png"
+    },
+    {
+      "id": "7",
+      "title": "Refrigerante Guaraná Antarctica Garrafa 2L",
+      "category": "refrigerante",
+      "price": 8.95,
+      "url": "http://172.21.0.2:4566/adelga-images/guarana-antarctica-2l.png"
+    },
+    {
+      "id": "8",
+      "title": "Refrigerante Guaraná Antarctica 350ml Lata",
+      "category": "refrigerante",
+      "price": 2.99,
+      "url": "http://172.21.0.2:4566/adelga-images/guarana-antarctica-350ml.png"
+    },
+    {
+      "id": "9",
+      "title": "Refrigerante Pepsi Black 350ml Lata",
+      "category": "refrigerante",
+      "price": 2.99,
+      "url": "http://172.21.0.2:4566/adelga-images/pepsi-black-350ml.png"
+    },
+    {
+      "id": "10",
+      "title": "Vinho Tinto Demi-Sec Bordô Pérgola 1 LT",
+      "category": "vinhos",
+      "price": 25.9,
+      "url": "http://172.21.0.2:4566/adelga-images/pergola-bordo-demi-sec-1l.png"
+    },
+    {
+      "id": "11",
+      "title": "Vinho Tinto Seco Bordô Pérgola 1 LT",
+      "category": "vinhos",
+      "price": 26.9,
+      "url": "http://172.21.0.2:4566/adelga-images/pergola-bordo-seco-1l.png"
+    },
+    {
+      "id": "12",
+      "title": "Vinho Tinto Suave Bordô Pérgola 750 ml",
+      "category": "vinhos",
+      "price": 24.9,
+      "url": "http://172.21.0.2:4566/adelga-images/pergola-bordo-suave-750ml.png"
+    },
+    {
+      "id": "13",
+      "title": "Vinho Tinto Suave Pérgola 375 ml",
+      "category": "vinhos",
+      "price": 12.6,
+      "url": "http://172.21.0.2:4566/adelga-images/pergola-tinto-suave-375ml.jpg"
+    },
+    {
+      "id": "14",
+      "title": "Vinho Tinto Suave Pérgola 750 ml",
+      "category": "vinhos",
+      "price": 19.9,
+      "url": "http://172.21.0.2:4566/adelga-images/pergola-tinto-suave-750ml.png"
+    },
+    {
+      "id": "15",
+      "title": "Energético Red Bull Energy Drink 250ml",
+      "category": "energetico",
+      "price": 8.99,
+      "url": "http://172.21.0.2:4566/adelga-images/redbull-energy-drink-250ml.png"
+    },
+    {
+      "id": "16",
+      "title": "Whisky Johnnie Walker Gold Label Icons 3.0 750ml",
+      "category": "vinhos",
+      "price": 199.0,
+      "url": "http://172.21.0.2:4566/adelga-images/whisky-johnnie-walker-gold-label-750ml.png"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+.boxItems {
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.boxItem {
+  display: flex;
+  padding-bottom: 2rem;
+}
+.boxTitle {
+  width: 100%;
+  padding: 8px 16px;
+  /* border: 1px solid orange; */
+}
+.boxTrash {
+  width: 40px;
+  padding: 8px 16px;
+  text-align: right;
+}
+.boxSubtotal {
+  width: 80px;
+  padding: 8px 16px;
+  text-align: right;
+}
+.boxQtd {
+  width: 70px;
+  padding: 8px 16px;
+  text-align: center;
+}
+.subtotal {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25rem 0;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+.total span {
+  font-weight: 700;
+}
+.boxPayment {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+.boxPayment a {
+  height: 45px;
+  width: 160px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--yellow500);
+  font-weight: bold;
+  color: var(--white);
+}
+.boxPayment :first-child {
+  border: 1px solid var(--yellow500);
+  background: var(--white);
+  color: var(--yellow500);
+}
