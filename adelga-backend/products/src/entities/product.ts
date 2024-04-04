@@ -2,11 +2,11 @@ import { v4 as uuid } from 'uuid'
 import { type ProductDto } from '../dtos/product'
 
 export class Product {
-  public id: string
-  public title: string
-  public category: string
-  public price: number
-  public url: string
+  public readonly id: string
+  public readonly title: string
+  public readonly category: string
+  public readonly price: number
+  public readonly url: string
 
   constructor (props: ProductDto) {
     this.id = uuid()

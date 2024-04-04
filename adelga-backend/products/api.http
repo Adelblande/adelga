@@ -1,0 +1,32 @@
+@baseUrl = http://localhost:3333
+
+GET {{baseUrl}}/products
+
+###
+GET {{baseUrl}}/products/b9a262e3-edc3-4e1d-bee9-ef79b4c4b921
+
+###
+POST {{baseUrl}}/products
+Content-Type: application/json
+
+{
+    "title": "51 Ice Kiwi 269ml Lata",
+    "category": "drinks",
+    "price": 4.99,
+    "url": "http://172.21.0.2:4566/adelga-images/51-ice-kiwi-269ml.png"
+}
+
+###
+PUT {{baseUrl}}/products/b9a262e3-edc3-4e1d-bee9-ef79b4c4b921
+Content-Type: application/json
+
+{
+    "title": "51 Ice Kiwi 269ml Lata",
+    "category": "drinks",
+    "price": 4.99,
+    "url": "http://172.21.0.2:4566/adelga-images/51-ice-kiwi-269ml.png"
+}
+
+###
+DELETE {{baseUrl}}/products/3e87f759-0986-4092-a49c-0c2af0646819
+

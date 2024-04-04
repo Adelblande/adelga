@@ -1,6 +1,6 @@
-import { type ProductDto } from '../dtos/product'
+import { ProductDto } from '../dtos/product'
 import { Product } from '../entities/product'
-import { type ProductRepository } from '../interfaces/product-repository'
+import { ProductRepository } from '../interfaces/product-repository'
 
 export class CreateProductUseCase {
   constructor (

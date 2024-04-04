@@ -1,6 +1,6 @@
-import { type ProductDto } from '../dtos/product'
-import { type Product } from '../entities/product'
-import { type ProductRepository } from '../interfaces/product-repository'
+import { ProductDto } from '../dtos/product'
+import { Product } from '../entities/product'
+import { ProductRepository } from '../interfaces/product-repository'
 
 export class UpdateProductUseCase {
   constructor (
@@ -14,6 +14,8 @@ export class UpdateProductUseCase {
       throw new Error('Product not found')
     }
 
-    return { ...product, ...data }
+    const updated = await this.productRepository.update(id, { ...product, ...data })
+
+    return updated
   }
 }
